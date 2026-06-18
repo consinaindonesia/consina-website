@@ -136,7 +136,7 @@ function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/30 to-background" />
       </div>
-      <div className="mx-auto flex min-h-[88vh] max-w-[1280px] flex-col justify-end px-4 pb-16 pt-32 md:px-8 md:pb-24">
+      <div className="mx-auto flex min-h-[62vh] max-w-[1280px] flex-col justify-center px-4 pb-16 pt-32 md:px-8 md:pb-24">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
           {t("home.hero.tagline")}
         </p>

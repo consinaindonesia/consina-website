@@ -143,7 +143,7 @@ function ProductCard({ p, lang }: { p: PublicProduct; lang: "id" | "en" }) {
       to={detailHref as never}
       className="group block"
     >
-      <div className="relative aspect-square overflow-hidden rounded-sm bg-muted">
+      <div className="relative aspect-square overflow-hidden rounded-none bg-muted">
         {p.image_url ? (
           <img
             src={p.thumbnail_url ?? p.image_url}

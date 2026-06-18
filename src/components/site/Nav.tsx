@@ -4,6 +4,7 @@ import { Menu, X, Search, MapPin, ChevronDown, Heart, User } from "lucide-react"
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { LangSuggestionBanner } from "./LangSuggestionBanner";
+import { AnnouncementBar } from "./AnnouncementBar";
 import { CartDrawer } from "./CartDrawer";
 import { useCustomerAuth } from "@/hooks/use-customer-auth";
 import { useWishlist } from "@/lib/wishlist-store";
@@ -116,6 +117,7 @@ export function Nav() {
       }`}
       style={{ backgroundColor: header.bgColor || "var(--background)" }}
     >
+      <AnnouncementBar />
       <LangSuggestionBanner />
       <div className="mx-auto flex h-16 max-w-[1280px] items-center justify-between px-4 md:px-8">
         <Link to="/" className="flex items-center gap-2">
