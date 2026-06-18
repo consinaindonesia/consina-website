@@ -278,7 +278,7 @@ function AttributesPage() {
     <AdminShell>
       <div className="mb-6 flex items-end justify-between gap-4">
         <div>
-          <h1 className="font-[Archivo] text-2xl font-black tracking-tight text-primary">Attributes</h1>
+          <h1 className="text-2xl font-black tracking-tight text-primary">Attributes</h1>
           <p className="text-sm text-muted-foreground">
             Define product properties and assign them to categories. Used to render product specs and storefront filters.
           </p>

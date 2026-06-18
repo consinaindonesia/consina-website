@@ -169,7 +169,7 @@ export function FindInStore({ productId, lang }: { productId: string; lang: Lang
     <section className="mt-16 rounded-2xl border border-border bg-card p-5 md:p-7">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h2 className="font-[Archivo] text-2xl font-bold text-primary">{labels.title}</h2>
+          <h2 className="text-2xl font-bold text-primary">{labels.title}</h2>
           <p className="mt-1 text-sm text-muted-foreground">{labels.subtitle}</p>
         </div>
         <Button asChild variant="link" className="text-primary">

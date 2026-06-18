@@ -61,7 +61,7 @@ export function Footer() {
                   className="h-10 w-auto object-contain"
                 />
               ) : (
-                <div className="font-[Archivo] text-3xl font-black tracking-tight">
+                <div className="text-3xl font-black tracking-tight">
                   {site.header.logoText || "CONSINA"}
                 </div>
               )}

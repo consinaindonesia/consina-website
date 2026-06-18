@@ -239,7 +239,7 @@ export function OrderPaymentPage() {
           <p className="text-xs uppercase tracking-wide text-muted-foreground">
             Amount to transfer
           </p>
-          <p className="mt-1 font-[Archivo] text-4xl font-bold tracking-tight text-primary">
+          <p className="mt-1 text-4xl font-bold tracking-tight text-primary">
             {formatPrice(order.total_idr, lang)}
           </p>
         </div>

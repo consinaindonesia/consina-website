@@ -30,7 +30,7 @@ function PrivacyPage() {
         <strong>{t.draftLabel}</strong> {t.draftNote}
       </div>
 
-      <h1 className="font-[Archivo] text-3xl font-black tracking-tight text-primary sm:text-4xl">
+      <h1 className="text-3xl font-black tracking-tight text-primary sm:text-4xl">
         {t.title}
       </h1>
       <p className="mt-2 text-sm text-muted-foreground">
@@ -40,7 +40,7 @@ function PrivacyPage() {
       <div className="prose prose-sm sm:prose mt-8 max-w-none">
         {t.sections.map((s) => (
           <section key={s.heading} className="mb-6">
-            <h2 className="font-[Archivo] text-xl font-bold tracking-tight text-primary">
+            <h2 className="text-xl font-bold tracking-tight text-primary">
               {s.heading}
             </h2>
             <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-foreground/90">

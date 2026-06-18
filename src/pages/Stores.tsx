@@ -169,7 +169,7 @@ function PageHeader({
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8b7355]">
           {t("stores_page.eyebrow")}
         </p>
-        <h1 className="mt-4 font-[Archivo] text-4xl font-black leading-[0.95] tracking-tight text-primary md:text-6xl">
+        <h1 className="mt-4 text-4xl font-black leading-[0.95] tracking-tight text-primary md:text-6xl">
           {t("stores_page.title")}
         </h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -270,7 +270,7 @@ function StoreCard({ store }: { store: Store }) {
   return (
     <div className="flex flex-col rounded-xl border border-border bg-card p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
       <div className="flex items-start justify-between gap-2">
-        <h3 className="font-[Archivo] text-base font-bold leading-snug text-primary">
+        <h3 className="text-base font-bold leading-snug text-primary">
           {store.name}
         </h3>
         <span className="shrink-0 rounded-full bg-accent/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-[#8b7355]">

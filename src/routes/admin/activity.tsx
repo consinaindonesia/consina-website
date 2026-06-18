@@ -175,7 +175,7 @@ function ActivityPage() {
     <AdminShell>
       <header className="flex flex-wrap items-center justify-between gap-4">
         <div>
-          <h1 className="font-[Archivo] text-2xl font-black tracking-tight text-primary">Activity log</h1>
+          <h1 className="text-2xl font-black tracking-tight text-primary">Activity log</h1>
           <p className="mt-1 text-sm text-muted-foreground">
             Audit trail of admin actions, auth events, and data changes.
           </p>

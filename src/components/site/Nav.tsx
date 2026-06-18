@@ -128,7 +128,7 @@ export function Nav() {
               className="h-8 w-auto object-contain md:h-9"
             />
           ) : (
-            <span className="font-[Archivo] text-2xl font-black tracking-tight text-primary">
+            <span className="text-2xl font-black tracking-tight text-primary">
               {header.logoText || "CONSINA"}
             </span>
           )}

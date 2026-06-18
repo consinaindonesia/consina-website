@@ -103,7 +103,7 @@ function OrdersPage() {
         <div className="flex items-center justify-between">
           <div>
             <p className="text-xs text-muted-foreground">Dashboard › Orders</p>
-            <h1 className="font-[Archivo] text-2xl font-bold tracking-tight">
+            <h1 className="text-2xl font-bold tracking-tight">
               Orders <span className="text-muted-foreground">({orders.length})</span>
             </h1>
           </div>

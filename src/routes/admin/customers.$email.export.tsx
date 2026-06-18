@@ -122,7 +122,7 @@ function ExportPage() {
         <div className="mb-4 flex items-center gap-3">
           <FileJson className="h-6 w-6 text-primary" />
           <div>
-            <h1 className="font-[Archivo] text-xl font-black tracking-tight text-primary">
+            <h1 className="text-xl font-black tracking-tight text-primary">
               Export customer data
             </h1>
             <p className="text-sm text-muted-foreground">{decoded}</p>

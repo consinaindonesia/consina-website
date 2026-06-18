@@ -44,7 +44,7 @@ export function InquiryDrawer({ className = "" }: { className?: string }) {
       </SheetTrigger>
       <SheetContent side="right" className="flex w-full flex-col gap-0 p-0 sm:max-w-md">
         <SheetHeader className="border-b border-border px-6 py-4">
-          <SheetTitle className="font-[Archivo] text-lg font-bold tracking-tight">
+          <SheetTitle className="text-lg font-bold tracking-tight">
             {t("inquiry.title")}
           </SheetTitle>
           <p className="text-xs text-muted-foreground">

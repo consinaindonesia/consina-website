@@ -325,7 +325,7 @@ function PublicStoresPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8b7355]">
               Store Locator
             </p>
-            <h1 className="mt-3 font-[Archivo] text-3xl font-black leading-[0.95] tracking-tight text-primary md:text-5xl">
+            <h1 className="mt-3 text-3xl font-black leading-[0.95] tracking-tight text-primary md:text-5xl">
               Find a Consina Store
             </h1>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -521,7 +521,7 @@ function StoreListCard({
       )}
     >
       <div className="flex items-start justify-between gap-2">
-        <h3 className="font-[Archivo] text-sm font-bold leading-snug text-primary">
+        <h3 className="text-sm font-bold leading-snug text-primary">
           {store.name}
         </h3>
         {store.distance != null && (

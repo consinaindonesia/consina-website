@@ -230,7 +230,7 @@ function RegionalReports() {
 
       <header className="mt-2 flex flex-wrap items-end justify-between gap-4">
         <div>
-          <h1 className="font-[Archivo] text-3xl font-black tracking-tight text-primary">
+          <h1 className="text-3xl font-black tracking-tight text-primary">
             Regional Analytics
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">
@@ -444,7 +444,7 @@ function Card({
 function SectionTitle({ title, sub }: { title: string; sub?: string }) {
   return (
     <div>
-      <h2 className="font-[Archivo] text-base font-bold text-primary">
+      <h2 className="text-base font-bold text-primary">
         {title}
       </h2>
       {sub && <p className="mt-0.5 text-xs text-muted-foreground">{sub}</p>}

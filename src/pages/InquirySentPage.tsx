@@ -32,7 +32,7 @@ export function InquirySentPage() {
       <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
         <CheckCircle2 className="h-10 w-10" />
       </div>
-      <h1 className="mt-6 font-[Archivo] text-3xl font-bold tracking-tight sm:text-4xl">
+      <h1 className="mt-6 text-3xl font-bold tracking-tight sm:text-4xl">
         {t("inquiry_sent.title")}
       </h1>
       <p className="mt-3 text-sm text-muted-foreground">
@@ -43,7 +43,7 @@ export function InquirySentPage() {
       </p>
 
       <div className="mt-10 w-full rounded-lg border border-border bg-muted/40 p-6 text-left">
-        <h2 className="font-[Archivo] text-base font-bold">
+        <h2 className="text-base font-bold">
           {t("inquiry_sent.next_title")}
         </h2>
         <ol className="mt-3 list-decimal space-y-1.5 pl-5 text-sm text-muted-foreground">

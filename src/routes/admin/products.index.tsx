@@ -508,7 +508,7 @@ function ProductsPage() {
             <span className="mx-1.5">/</span>
             <span className="text-foreground">Products</span>
           </nav>
-          <h1 className="mt-2 font-[Archivo] text-2xl font-black tracking-tight text-primary">
+          <h1 className="mt-2 text-2xl font-black tracking-tight text-primary">
             Products <span className="text-muted-foreground">({total})</span>
           </h1>
         </div>

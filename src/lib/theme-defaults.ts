@@ -134,7 +134,7 @@ export const DEFAULT_THEME: ThemeSettings = {
     accent: "oklch(0.80 0.055 80)",
   },
   fonts: {
-    heading: "Archivo",
+    heading: "Space Grotesk",
     body: "Inter",
   },
   customFonts: [],
@@ -146,7 +146,7 @@ export const FONT_OPTIONS: { value: string; label: string; googleFamily: string 
   { value: "Archivo", label: "Archivo", googleFamily: "Archivo:wght@600;700;800;900" },
   { value: "Inter", label: "Inter", googleFamily: "Inter:wght@400;500;600;700" },
   { value: "Playfair Display", label: "Playfair Display", googleFamily: "Playfair+Display:wght@600;700;800" },
-  { value: "Space Grotesk", label: "Space Grotesk", googleFamily: "Space+Grotesk:wght@500;600;700" },
+  { value: "Space Grotesk", label: "Space Grotesk", googleFamily: "Space+Grotesk:wght@500;600;700;900" },
   { value: "DM Sans", label: "DM Sans", googleFamily: "DM+Sans:wght@400;500;700" },
   { value: "Fraunces", label: "Fraunces", googleFamily: "Fraunces:wght@500;600;700;800" },
   { value: "Manrope", label: "Manrope", googleFamily: "Manrope:wght@400;500;600;700" },

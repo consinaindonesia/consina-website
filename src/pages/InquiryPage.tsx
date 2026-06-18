@@ -227,7 +227,7 @@ export function InquiryPage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
-      <h1 className="font-[Archivo] text-3xl font-bold tracking-tight sm:text-4xl">
+      <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
         {t("inquiry_page.title")}
       </h1>
       <p className="mt-1 text-sm text-muted-foreground">
@@ -402,7 +402,7 @@ export function InquiryPage() {
                   <span className="text-sm text-muted-foreground">
                     {t("inquiry_page.estimated_total")}
                   </span>
-                  <span className="font-[Archivo] text-2xl font-bold tracking-tight">
+                  <span className="text-2xl font-bold tracking-tight">
                     {formatPrice(subtotal, lang)}
                   </span>
                 </div>
@@ -420,7 +420,7 @@ export function InquiryPage() {
             onSubmit={handleSubmit}
             className="rounded-lg border border-border bg-card p-6"
           >
-            <h2 className="font-[Archivo] text-xl font-bold tracking-tight">
+            <h2 className="text-xl font-bold tracking-tight">
               {t("inquiry_page.your_details")}
             </h2>
 

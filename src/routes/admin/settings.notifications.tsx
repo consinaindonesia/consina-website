@@ -102,7 +102,7 @@ function SettingsNotificationsPage() {
         <span className="text-foreground">Notifications</span>
       </div>
 
-      <h1 className="mb-1 font-[Archivo] text-2xl font-black tracking-tight text-primary">
+      <h1 className="mb-1 text-2xl font-black tracking-tight text-primary">
         Notification settings
       </h1>
       <p className="mb-6 text-sm text-muted-foreground">

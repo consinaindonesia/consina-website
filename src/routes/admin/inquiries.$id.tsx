@@ -453,7 +453,7 @@ function InquiryDetailPage() {
               Returning customer
             </Badge>
           )}
-          <h1 className="mt-2 font-[Archivo] text-2xl font-black tracking-tight text-primary">
+          <h1 className="mt-2 text-2xl font-black tracking-tight text-primary">
             {inquiry.customer_name}
           </h1>
           <p className="text-sm text-muted-foreground">

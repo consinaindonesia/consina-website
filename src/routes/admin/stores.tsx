@@ -416,7 +416,7 @@ function StoresPage() {
       </div>
 
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-        <h1 className="font-[Archivo] text-2xl font-black tracking-tight text-primary">
+        <h1 className="text-2xl font-black tracking-tight text-primary">
           Stores{" "}
           <span className="text-muted-foreground font-medium">({rows.length})</span>
         </h1>

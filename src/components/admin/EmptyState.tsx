@@ -21,7 +21,7 @@ export function EmptyState({ icon, title, description, actionLabel, actionHref }
           strokeWidth={1}
         />
       )}
-      <h2 className="font-[Archivo] text-xl font-bold text-foreground">
+      <h2 className="text-xl font-bold text-foreground">
         {title}
       </h2>
       <p className="mt-2 max-w-xs text-sm text-muted-foreground">

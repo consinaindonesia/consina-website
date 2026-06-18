@@ -282,7 +282,7 @@ export function CategoryPage({ slug }: { slug: string }) {
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-secondary">
                 {t("category_detail.eyebrow")}
               </p>
-              <h1 className="mt-3 font-[Archivo] text-4xl font-black tracking-tight text-primary md:text-5xl">
+              <h1 className="mt-3 text-4xl font-black tracking-tight text-primary md:text-5xl">
                 {localizedField(category, "name", lang).value}
               </h1>
               {localizedField(category, "description", lang).value && (

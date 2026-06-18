@@ -88,7 +88,7 @@ function AccountPage() {
         <span className="text-foreground">My account</span>
       </div>
 
-      <h1 className="mb-1 font-[Archivo] text-2xl font-black tracking-tight text-primary">
+      <h1 className="mb-1 text-2xl font-black tracking-tight text-primary">
         My account
       </h1>
       <p className="mb-6 text-sm text-muted-foreground">

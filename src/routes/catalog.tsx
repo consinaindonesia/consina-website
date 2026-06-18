@@ -47,7 +47,7 @@ function CatalogPage() {
       <header className="border-b border-border bg-muted/40">
         <div className="mx-auto max-w-[1280px] px-4 py-16 md:px-8 md:py-20">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-secondary">{t("catalog.eyebrow")}</p>
-          <h1 className="mt-3 font-[Archivo] text-4xl font-black tracking-tight text-primary md:text-6xl">
+          <h1 className="mt-3 text-4xl font-black tracking-tight text-primary md:text-6xl">
             {t("catalog.title")}
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -88,7 +88,7 @@ function CatalogPage() {
                     <p className="text-xs font-semibold uppercase tracking-[0.3em] text-secondary">
                       {t("catalog.items_count", { count: items.length })}
                     </p>
-                    <h2 className="mt-2 font-[Archivo] text-3xl font-black tracking-tight text-primary md:text-5xl">
+                    <h2 className="mt-2 text-3xl font-black tracking-tight text-primary md:text-5xl">
                       {name}
                     </h2>
                   </div>
@@ -169,7 +169,7 @@ function ProductCard({ p, lang }: { p: PublicProduct; lang: "id" | "en" }) {
         )}
       </div>
       <div className="mt-4">
-        <h3 className="line-clamp-2 font-[Archivo] text-sm font-bold leading-snug text-primary">
+        <h3 className="line-clamp-2 text-sm font-bold leading-snug text-primary">
           {name}
         </h3>
         {p.variants.length > 0 && (

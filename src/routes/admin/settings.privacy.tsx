@@ -41,7 +41,7 @@ function PrivacyDocsPage() {
     <AdminShell>
       <div className="mb-4 flex items-center gap-3">
         <Shield className="h-6 w-6 text-primary" />
-        <h1 className="font-[Archivo] text-2xl font-black tracking-tight text-primary">
+        <h1 className="text-2xl font-black tracking-tight text-primary">
           Privacy &amp; Data Retention
         </h1>
       </div>

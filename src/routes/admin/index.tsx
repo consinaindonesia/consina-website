@@ -308,7 +308,7 @@ function AdminHome() {
     <AdminShell>
       {/* Welcome header */}
       <header>
-        <h1 className="font-[Archivo] text-3xl font-black tracking-tight text-primary">
+        <h1 className="text-3xl font-black tracking-tight text-primary">
           {greeting(now)}, {firstName}
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">{dateLabel}</p>
@@ -316,7 +316,7 @@ function AdminHome() {
 
       {/* Quick stats */}
       <div className="mt-8 flex items-end justify-between gap-4">
-        <h2 className="font-[Archivo] text-lg font-bold text-primary">Overview</h2>
+        <h2 className="text-lg font-bold text-primary">Overview</h2>
         <label className="flex items-center gap-2 text-xs text-muted-foreground">
           <span className="uppercase tracking-wider">Range</span>
           <select
@@ -383,7 +383,7 @@ function AdminHome() {
       {/* Two columns */}
       <section className="mt-8 grid gap-6 lg:grid-cols-[3fr_2fr]">
         <Card>
-          <h2 className="font-[Archivo] text-lg font-bold text-primary">Inquiries needing attention</h2>
+          <h2 className="text-lg font-bold text-primary">Inquiries needing attention</h2>
           {inquiries.length === 0 ? (
             <EmptyState
               icon="MessageSquare"
@@ -417,7 +417,7 @@ function AdminHome() {
         </Card>
 
         <Card>
-          <h2 className="font-[Archivo] text-lg font-bold text-primary">Recently edited</h2>
+          <h2 className="text-lg font-bold text-primary">Recently edited</h2>
           {products.length === 0 ? (
             <EmptyState icon="Package" title="No products yet" description="Recently edited products will appear here." />
           ) : (
@@ -468,7 +468,7 @@ function AdminHome() {
       {profile?.role === "admin" && (
         <section className="mt-8">
           <Card>
-            <h2 className="font-[Archivo] text-lg font-bold text-primary">Recent activity</h2>
+            <h2 className="text-lg font-bold text-primary">Recent activity</h2>
             {activity.length === 0 ? (
               <p className="mt-4 text-sm text-muted-foreground">No activity yet.</p>
             ) : (
@@ -520,7 +520,7 @@ function StatCard({
         <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">{label}</p>
         {dot && <span className="inline-block h-2 w-2 rounded-full bg-red-500" aria-label="new" />}
       </div>
-      <p className="mt-2 font-[Archivo] text-3xl font-black tracking-tight text-primary">{value}</p>
+      <p className="mt-2 text-3xl font-black tracking-tight text-primary">{value}</p>
       {sub && <div className="mt-2 text-xs text-muted-foreground">{sub}</div>}
     </div>
   );

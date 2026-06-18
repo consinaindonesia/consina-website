@@ -74,7 +74,7 @@ function AuthPage() {
     <div className="min-h-screen bg-background text-foreground">
       <Nav />
       <div className="mx-auto max-w-md px-4 py-12 sm:py-16">
-        <h1 className="font-[Archivo] text-3xl font-bold tracking-tight">
+        <h1 className="text-3xl font-bold tracking-tight">
           {mode === "signup" ? "Daftar" : "Masuk"}
         </h1>
         <p className="mt-1 text-sm text-muted-foreground">

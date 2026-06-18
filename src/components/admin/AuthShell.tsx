@@ -24,7 +24,7 @@ export function AuthShell({
       <div className="w-[90%] max-w-[400px] rounded-[12px] bg-white p-8 shadow-[0_10px_40px_-12px_rgba(26,58,46,0.18)]">
         <div className="flex flex-col items-center text-center">
           <span
-            className="font-[Archivo] text-2xl font-black tracking-tight"
+            className="text-2xl font-black tracking-tight"
             style={{ color: "#1a3a2e" }}
           >
             CONSINA

@@ -247,7 +247,7 @@ function CategoryPage() {
           {category ? (
             <>
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-secondary">Category</p>
-              <h1 className="mt-3 font-[Archivo] text-4xl font-black tracking-tight text-primary md:text-5xl">
+              <h1 className="mt-3 text-4xl font-black tracking-tight text-primary md:text-5xl">
                 {category.name_en}
               </h1>
               {category.description_en && (

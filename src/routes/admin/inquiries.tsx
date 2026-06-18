@@ -428,7 +428,7 @@ function InquiriesPage() {
       </div>
 
       <div className="mb-5 flex items-center justify-between">
-        <h1 className="font-[Archivo] text-2xl font-black tracking-tight text-primary">
+        <h1 className="text-2xl font-black tracking-tight text-primary">
           Inquiries{" "}
           <span className="text-muted-foreground font-medium">
             ({rows.length})

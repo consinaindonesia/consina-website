@@ -183,7 +183,7 @@ function SizeGuidesPage() {
             <span className="mx-1.5">/</span>
             <span className="text-foreground">Size Guides</span>
           </nav>
-          <h1 className="mt-2 font-[Archivo] text-2xl font-black tracking-tight text-primary">
+          <h1 className="mt-2 text-2xl font-black tracking-tight text-primary">
             Size Guides
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">

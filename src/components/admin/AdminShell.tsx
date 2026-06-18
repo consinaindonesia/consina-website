@@ -239,7 +239,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
     >
       <div className="flex items-center justify-between px-5 py-5">
         <Link to="/admin" className="block">
-          <div className="font-[Archivo] text-xl font-black tracking-tight">CONSINA</div>
+          <div className="text-xl font-black tracking-tight">CONSINA</div>
           <div
             className="mt-0.5 text-[10px] font-semibold tracking-[0.3em]"
             style={{ color: ACCENT }}

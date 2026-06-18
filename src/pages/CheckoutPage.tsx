@@ -522,7 +522,7 @@ export function CheckoutPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:py-14">
-      <h1 className="font-[Archivo] text-3xl font-bold tracking-tight sm:text-4xl">
+      <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
         Checkout
       </h1>
       <p className="mt-1 text-sm text-muted-foreground">
@@ -858,7 +858,7 @@ export function CheckoutPage() {
 
         <aside>
           <div className="sticky top-6 rounded-lg border border-border bg-card p-5">
-            <h2 className="font-[Archivo] text-lg font-bold">Order summary</h2>
+            <h2 className="text-lg font-bold">Order summary</h2>
             <dl className="mt-4 space-y-2 text-sm">
               <div className="flex justify-between">
                 <dt className="text-muted-foreground">Subtotal</dt>

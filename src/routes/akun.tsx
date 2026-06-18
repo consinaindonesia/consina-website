@@ -47,7 +47,7 @@ function AkunLayout() {
       <div className="mx-auto max-w-5xl px-4 py-10 sm:py-14">
         <div className="flex items-start justify-between gap-4">
           <div>
-            <h1 className="font-[Archivo] text-3xl font-bold tracking-tight">Akun Saya</h1>
+            <h1 className="text-3xl font-bold tracking-tight">Akun Saya</h1>
             <p className="mt-1 text-sm text-muted-foreground">
               {profile?.full_name || profile?.email || user.email}
             </p>

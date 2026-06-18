@@ -73,7 +73,7 @@ function LoginPage() {
       >
         <div className="flex flex-col items-center text-center">
           <span
-            className="font-[Archivo] text-2xl font-black tracking-tight"
+            className="text-2xl font-black tracking-tight"
             style={{ color: "#1a3a2e" }}
           >
             CONSINA

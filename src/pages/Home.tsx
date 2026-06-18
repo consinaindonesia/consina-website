@@ -140,7 +140,7 @@ function Hero() {
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
           {t("home.hero.tagline")}
         </p>
-        <h1 className="mt-5 max-w-4xl font-[Archivo] text-5xl font-black leading-[0.95] tracking-tight text-primary-foreground md:text-7xl lg:text-[88px]">
+        <h1 className="mt-5 max-w-4xl text-5xl font-black leading-[0.95] tracking-tight text-primary-foreground md:text-7xl lg:text-[88px]">
           {t("home.hero.title_1")} <em className="not-italic text-accent">{t("home.hero.title_em")}</em>
           <br />
           {t("home.hero.title_2")}
@@ -170,7 +170,7 @@ function Hero() {
             ["100%", t("home.hero.stat_local")],
           ].map(([n, l]) => (
             <div key={l}>
-              <div className="font-[Archivo] text-2xl font-bold text-[#1a3a2e] md:text-3xl">{n}</div>
+              <div className="text-2xl font-bold text-[#1a3a2e] md:text-3xl">{n}</div>
               <div className="mt-1 text-[11px] uppercase tracking-widest text-[#1a3a2e]">{l}</div>
             </div>
           ))}
@@ -224,7 +224,7 @@ function BrandStory() {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
             {t("home.story.eyebrow")}
           </p>
-          <h2 className="mt-4 font-[Archivo] text-4xl font-black leading-[1.05] tracking-tight text-primary md:text-5xl">
+          <h2 className="mt-4 text-4xl font-black leading-[1.05] tracking-tight text-primary md:text-5xl">
             {t("home.story.title")}
           </h2>
 
@@ -308,7 +308,7 @@ function Categories() {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#c9a84c]">
             {t("home.categories.eyebrow")}
           </p>
-          <h2 className="mt-3 font-[Archivo] text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
+          <h2 className="mt-3 text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
             {t("home.categories.title")}
           </h2>
           <p className="mt-3 text-base text-muted-foreground">
@@ -361,7 +361,7 @@ function CategoryCard({ cat }: { cat: CategoryItem }) {
       {/* Text area — bottom 40% */}
       <div className="flex h-[40%] flex-col justify-between p-4">
         <div>
-          <h3 className="font-[Archivo] text-lg font-bold tracking-tight text-primary">
+          <h3 className="text-lg font-bold tracking-tight text-primary">
             {cat.name}
           </h3>
           <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
@@ -386,7 +386,7 @@ function FeaturedProducts() {
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#c9a84c]">
           {t("home.featured.eyebrow")}
         </p>
-        <h2 className="mt-3 font-[Archivo] text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
+        <h2 className="mt-3 text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
           {t("home.featured.title")}
         </h2>
       </div>
@@ -408,7 +408,7 @@ function FeaturedProducts() {
             </div>
             {/* Text */}
             <div className="mt-4">
-              <h3 className="font-[Archivo] text-base font-bold leading-snug text-primary">
+              <h3 className="text-base font-bold leading-snug text-primary">
                 {p.name}
               </h3>
               <p className="mt-1 text-sm text-muted-foreground">
@@ -442,7 +442,7 @@ function Community() {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#d4b896]">
             {t("home.community.eyebrow")}
           </p>
-          <h2 className="mt-4 font-[Archivo] text-4xl font-black leading-tight tracking-tight text-white md:text-5xl">
+          <h2 className="mt-4 text-4xl font-black leading-tight tracking-tight text-white md:text-5xl">
             {t("home.community.title")}
           </h2>
           <div className="mt-8 space-y-5 text-base leading-relaxed text-white/85 md:text-lg">
@@ -483,7 +483,7 @@ function StoreLocator() {
       <div className="grid gap-12 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-secondary">{t("home.store_locator.eyebrow")}</p>
-          <h2 className="mt-3 font-[Archivo] text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
+          <h2 className="mt-3 text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
             {t("home.store_locator.title")}
           </h2>
           <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground">
@@ -500,7 +500,7 @@ function StoreLocator() {
           <ul className="divide-y divide-border border-y border-border">
             {stores.map((s) => (
               <li key={s.city} className="group grid grid-cols-[auto_1fr_auto] items-center gap-6 py-5">
-                <span className="font-[Archivo] text-2xl font-black tracking-tight text-primary md:text-3xl">
+                <span className="text-2xl font-black tracking-tight text-primary md:text-3xl">
                   {s.city}
                 </span>
                 <div>
@@ -533,7 +533,7 @@ function FAQSection() {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#c9a84c]">{t("home.faq.eyebrow")}</p>
           <h2
             id="faq-heading"
-            className="mt-3 font-[Archivo] text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl"
+            className="mt-3 text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl"
           >
             {t("home.faq.title")}
           </h2>
@@ -553,7 +553,7 @@ function FAQSection() {
                   onClick={() => setOpen(isOpen ? null : i)}
                   className="flex w-full items-center justify-between gap-4 py-5 text-left"
                 >
-                  <h3 className="font-[Archivo] text-base font-bold text-primary md:text-lg">
+                  <h3 className="text-base font-bold text-primary md:text-lg">
                     {f.q}
                   </h3>
                   <ChevronDown
@@ -640,7 +640,7 @@ function ContactSectionInner() {
       <div className="mx-auto grid max-w-[1280px] gap-14 px-4 md:grid-cols-2 md:px-8">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-secondary">{t("home.contact.eyebrow")}</p>
-          <h2 className="mt-3 font-[Archivo] text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
+          <h2 className="mt-3 text-4xl font-black leading-tight tracking-tight text-primary md:text-5xl">
             {t("home.contact.title_1")}<br />{t("home.contact.title_2")}
           </h2>
           <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground">

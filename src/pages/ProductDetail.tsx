@@ -490,7 +490,7 @@ export function ProductDetailPage({ slug }: { slug: string }) {
                 {localizedField(category, "name", lang).value}
               </p>
             )}
-            <h1 className="mt-2 font-[Archivo] text-3xl font-black tracking-tight text-primary md:text-4xl">
+            <h1 className="mt-2 text-3xl font-black tracking-tight text-primary md:text-4xl">
               {nameField.value}
             </h1>
             <p className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">
@@ -760,7 +760,7 @@ export function ProductDetailPage({ slug }: { slug: string }) {
         {/* Description + specs */}
         <div className="mt-16 grid grid-cols-1 gap-10 lg:grid-cols-[1fr_320px]">
           <article>
-            <h2 className="font-[Archivo] text-2xl font-bold text-primary">
+            <h2 className="text-2xl font-bold text-primary">
               {t("product.description")}
             </h2>
             {descField.value ? (
@@ -773,7 +773,7 @@ export function ProductDetailPage({ slug }: { slug: string }) {
             )}
           </article>
           <aside>
-            <h2 className="font-[Archivo] text-2xl font-bold text-primary">
+            <h2 className="text-2xl font-bold text-primary">
               {t("product.specs")}
             </h2>
             <dl className="mt-4 divide-y divide-border rounded-xl border border-border bg-card">
@@ -803,7 +803,7 @@ export function ProductDetailPage({ slug }: { slug: string }) {
         {/* Related */}
         {related.length > 0 && (
           <section className="mt-16">
-            <h2 className="mb-6 font-[Archivo] text-2xl font-bold text-primary">
+            <h2 className="mb-6 text-2xl font-bold text-primary">
               {t("product.related")}
             </h2>
             <ul className="grid grid-cols-2 gap-4 md:grid-cols-4">

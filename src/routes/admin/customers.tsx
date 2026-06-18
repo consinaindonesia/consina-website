@@ -176,7 +176,7 @@ function CustomersPage() {
       </div>
 
       <div className="mb-5 flex items-center justify-between">
-        <h1 className="font-[Archivo] text-2xl font-black tracking-tight text-primary">
+        <h1 className="text-2xl font-black tracking-tight text-primary">
           Customers{" "}
           <span className="text-muted-foreground font-medium">({customers.length})</span>
         </h1>
